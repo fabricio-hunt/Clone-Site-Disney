@@ -47,5 +47,10 @@ nav ul li{
     font-weight: 700;
 }
 
+nav ul li:hover{
+    color: #0077da;
+}
+
+
 
      
