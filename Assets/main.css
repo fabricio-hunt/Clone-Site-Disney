@@ -1,4 +1,6 @@
 @import url(/Assets/header.css);
+@import url(/banner.css);
+
 body{
     margin: 0;
     padding:0;
