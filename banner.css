@@ -9,9 +9,28 @@
     text-align: center;
     margin-top: 15px;
     padding: 0;
+    border: 5px solid red;
+
 }
 
 .banner img {
     max-width: 100%;
     height: auto;
   }
+
+  .conteudo__banner{
+    position: absolute;
+    top: 250px;
+    margin-left: 120px;
+    
+
+  }
+
+  .conteudo__banner img{
+
+    border: 2px solid green;
+    width: 230px;
+    height: auto;
+  }
+
+  
