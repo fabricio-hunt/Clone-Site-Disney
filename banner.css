@@ -9,8 +9,6 @@
     text-align: center;
     margin-top: 15px;
     padding: 0;
-    border: 5px solid red;
-
 }
 
 .banner img {
@@ -22,15 +20,13 @@
     position: absolute;
     top: 250px;
     margin-left: 120px;
-    
-
   }
 
   .conteudo__banner img{
-
-    border: 2px solid green;
-    width: 230px;
+    width: 300px;
     height: auto;
   }
+
+
 
   
