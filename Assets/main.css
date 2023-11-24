@@ -8,9 +8,13 @@ body{
 }
 
 .main-container{
-    width: 100%;
-    height: auto;
     box-sizing: border-box;
+    width: 100%;
+    max-width: 1594px;
+    height: auto;
+    border: 3px solid red;
+    margin: 0 auto;
+
 }
 
 
