@@ -37,6 +37,7 @@
     .logo{
         margin: 0 auto;
         padding-top: 8px;
+        margin-left: 135px;
     }
 
     .navbar-light .navbar-toggler {
@@ -51,7 +52,21 @@
 
     }
 
-    
+    .formulario{
+        border: 1px solid yellow;
+        display: none;
+    }
+
+    .search__input{
+
+        width: 32px;
+        height: 32px;
+        background-repeat: no-repeat;
+        background-size: 100% 200%;
+        margin-right: 22px;
+    }
+
+   
 
 }
 
