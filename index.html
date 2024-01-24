@@ -1,59 +1,64 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="O site oficial da Disney: séries, vídeos, filmes, jogos, música, personagens e muito mais!">
-    <link rel="stylesheet" type="text/css" href="Assets/main.css">
-    <!--<link rel="stylesheet" type="text/css" href="Assets/header.css">-->
-    <title>Disney Brasil | O site oficial da Disney</title>
-</head>
-<body>
-    <!-- CLONE https://www.disney.com.br -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Assets/main.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="Assets/header.css" media="screen" />
 
-    <div class="main-container">
-        
-        <header class="header">
-            <nav class="menu">
-                <img src="Assets/image/logo_disney.png" alt="logo disney">
-            <ul> 
-                <li class="disney"> disney+</li>
-                <li class="star"> star+</li>
-                <li class="filmes"> filmes</li>
-                <li class="disney100"> disney 100</li>
-                <li class="insider"> marvel insider</li>
-                <li class="radio"> rádio disney</li>
-                <li class="magico"> aniversário mágico +</li>
-                <li class="corrida"> corrida</li>
-                <li class="mais"> mais</li>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Disney Brasil | O site oficial da Disney - Clone -</title>
+  </head>
+  <body>
+
+<div class="main-container"> 
+
+    <!-- Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/Assets/image/logo_disney.png" alt="logo-disney"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">disney+</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">star+</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">filmes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">séries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">disney 100</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">rádio disney</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">mais</a>
+              </li>
             </ul>
-            
-        <form action="#"> 
-            <input type="search" placeholder="Buscar">
-            <button class="botao"><img class="search" src="Assets/image/search.svg"></button> 
-        </form>
-        </nav>
-        </header>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!--Fim Menu-->
+</div><!--Fim main container--->
 
 
-    </div> <!--Fim Main Container-->
-
-    <div class="banner-ads">
-        <img src="/Assets/image/imagem de ads.png" alt="">
-    </div>
-
-    <div class="banner">
-        <img src="/Assets/image/hb_disney_themarvels_2720_8f5b2eef.jpeg" alt="">
-
-    <div class="conteudo__banner"> 
-        <img src="/Assets/image/as_marveis_logo.png" alt="">
-        <p>Mais alto. Mais longe. Mais veloz. Juntas <br>
-        Agora nos cinemas</p>
-        <button> botão</button>
-        <button> botão</button>
-      </div>
-
-    </div>
-    
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
