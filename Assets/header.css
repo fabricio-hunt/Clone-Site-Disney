@@ -1,6 +1,7 @@
 
 @import url(/Assets/header.css);
 .main-container .navbar{
-    border: 2px solid  gold;
-    background-color: var(--cor-branca);
+    font-family: var(--fonte-padrao);
+    text-transform: uppercase;
+    font-weight: bold;
 }

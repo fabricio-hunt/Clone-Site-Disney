@@ -1,8 +1,16 @@
-@import url(Assets/header.css);
-body{
+@import url(/Assets/header.css);
+:root {
+    --cor-branca: #ffffff;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+  }
+
+  body{
     margin: 0;
     padding: 0;
 }
 
 .main-container{
+    background-color: var(--cor-branca);
 }
+
+
