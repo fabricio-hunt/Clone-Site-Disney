@@ -4,4 +4,24 @@
     font-family: var(--fonte-padrao);
     text-transform: uppercase;
     font-weight: bold;
+    display: flex;
+    display: block;
+    height: 63px;
+    padding-left: 10px;
+    
+}
+
+.main-container .navbar img{
+    width: 99px;
+    height: auto;
+}
+
+.main-container .navbar ul li{
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color: #1786eb;
+
 }
