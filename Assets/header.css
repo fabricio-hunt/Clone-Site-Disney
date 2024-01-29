@@ -7,8 +7,7 @@
     display: flex;
     display: block;
     height: 63px;
-    padding-left: 10px;
-    
+    padding-left: 38px;
 }
 
 .main-container .navbar img{
@@ -23,5 +22,28 @@
 
 .navbar-light .navbar-nav .nav-link.active:hover{
     color: #1786eb;
-
 }
+
+.d-flex{
+    border: 1px solid #757575;
+    background-position: center;
+    border-radius: 5px;
+}
+.d-flex .btn{
+    background-image: url(/Assets/image/search.svg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 40px;
+    width: 68px;
+}
+
+.d-flex .form-control{
+    background: #f5f5f5;
+    border: none;
+    width: 287px;
+}
+
+
