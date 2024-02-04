@@ -41,9 +41,13 @@
 }
 
 .d-flex .form-control{
-    background: #f5f5f5;
+    background: var(--bk-input);
     border: none;
     width: 287px;
 }
-
+.main-container .bannerAds img{
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+}
 
