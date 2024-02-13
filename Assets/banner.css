@@ -1,0 +1,9 @@
+.main-container .banner-principal{
+}
+
+.main-container .banner-principal img{
+    max-width: 95%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 45px;
+}
