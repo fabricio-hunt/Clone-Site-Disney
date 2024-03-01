@@ -1,5 +1,6 @@
 .main-container .banner-principal{
-    
+    margin: 0;
+    padding: 0;
 }
 
 .main-container .banner-principal img{
@@ -7,4 +8,17 @@
     margin: 0 auto;
     height: auto;
     margin-top: 45px;
+
+}
+
+.main-container .botoes__banner{
+    border: 5px solid gold;
+    display: inline-block;
+    position: absolute;
+    top: 380px;
+    left: 180px;
+    color: var(--cor-branca);
+    text-align: center;
+    width: auto;
+    height: auto;
 }
