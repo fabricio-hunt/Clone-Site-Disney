@@ -49,5 +49,7 @@
     margin: 0 auto;
     display: block;
     margin-top: 25px;
+    max-width: 100%;
+    height: auto;
 }
 
