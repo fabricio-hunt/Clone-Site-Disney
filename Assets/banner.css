@@ -1,24 +1,57 @@
-.main-container .banner-principal{
-    margin: 0;
-    padding: 0;
+/*- .main-container .card{
+    margin-top: 35px;
+    box-sizing: border-box;
+    border: 8px solid red;
 }
 
-.main-container .banner-principal img{
-    max-width: 95%;
-    margin: 0 auto;
+.card-img-overlay{
+    max-width: 100%;
+    width: 550px;
+    height: 350px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    box-sizing: border-box;
+}
+
+.card-img-overlay img{
+    max-width: 100%;
     height: auto;
-    margin-top: 45px;
-
-}
-
-.main-container .botoes__banner{
-    border: 5px solid gold;
-    display: inline-block;
-    position: absolute;
-    top: 380px;
-    left: 180px;
-    color: var(--cor-branca);
+    width: 450px;
     text-align: center;
-    width: auto;
+}*/
+
+.main-container {
+    /* Add some padding for better visual separation */
+    padding: 1rem;
+  }
+  
+  .card {
+    margin-top: 35px;
+    box-sizing: border-box;
+    border: 8px solid red;
+    position: relative; /* Needed for proper positioning of overlay */
+    overflow: hidden; /* Prevent content from overflowing container */
+  }
+  
+  .card-img-overlay {
+    position: absolute; /* Position overlay on top of the card */
+    top: 0;
+    left: 0; /* Align overlay to top-left corner of the card */
+    right: 0;
+    bottom: 0; /* Stretch overlay to cover the entire card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically within overlay */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+    box-sizing: border-box;
+  }
+  
+  .card-img-overlay img {
+    max-width: 100%; /* Allow image to scale proportionally */
     height: auto;
-}
+  }
+  
