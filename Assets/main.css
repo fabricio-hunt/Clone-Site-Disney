@@ -1,5 +1,6 @@
 @import url(/Assets/header.css);
 @import url(/Assets/banner.css);
+@import url(/Assets/card-video.css);
 :root {
     --cor-branca: #ffffff;
     --bk-input: #f5f5f5;
